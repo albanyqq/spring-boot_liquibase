@@ -1,0 +1,14 @@
+datasource:
+  sql:
+    jdbcUrl: jdbc:mysql://localhost:3308/test2?createDatabaseIfNotExist=true&useSSL=true
+    connectionTestQuery: SELECT 1 FROM DUAL
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+    max-wait: 5000
+    max-active: 500
+    test-on-borrow: true
+ 
+   
+
+ 
